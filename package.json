@@ -1,0 +1,23 @@
+{
+  "name": "bannerlord-voice-over-project",
+  "version": "0.0.1",
+  "description": "Voice over for bannerlord",
+  "main": "index.js",
+  "scripts": {
+    "extract-voice-lines": "node ./tools/voice-line-extractor/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ss-gnalvesteffer/bannerlord-voice-over-project.git"
+  },
+  "author": "Xorberax",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ss-gnalvesteffer/bannerlord-voice-over-project/issues"
+  },
+  "homepage": "https://github.com/ss-gnalvesteffer/bannerlord-voice-over-project#readme",
+  "dependencies": {
+    "fs-readdir-recursive": "^1.1.0",
+    "xml-js": "^1.6.11"
+  }
+}
